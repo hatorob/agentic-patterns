@@ -5,6 +5,7 @@ import { planningMain } from './patterns/02-planning/planning.js';
 import { reflectionMain } from './patterns/03-reflection/reflection.js';
 import { reActSimpleMain } from './patterns/04-ReAct/reAct-loop.js';
 import { reActWeatherMain } from './patterns/04-ReAct/reAct-tarea.js';
+import { promptChainingMain } from './patterns/05-prompt-chaining/prompt-chaining.js';
 
 console.clear();
 
@@ -12,7 +13,8 @@ console.clear();
 //await planningMain();
 //await reflectionMain();
 //await reActSimpleMain();
-await reActWeatherMain();
+//await reActWeatherMain();
+await promptChainingMain();
 
 
 await getMessageFromModel();

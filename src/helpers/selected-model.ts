@@ -40,8 +40,8 @@ import { ollama } from 'ollama-ai-provider-v2';
 
 // Ollama:
 //export const model = ollama('gpt-oss');
-//export const model = ollama('qwen3:8b');
+export const model = ollama('qwen3:8b');
 //export const model = ollama('deepseek-r1:8b');
 //export const model = ollama('qwen3:4b');
-export const model = ollama('gemma4:e4b');
+//export const model = ollama('gemma4:e4b');
 //export const model = ollama('granite4.2:8b');
